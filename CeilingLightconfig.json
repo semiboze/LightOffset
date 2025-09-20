@@ -1,0 +1,10 @@
+{
+  "daily_schedules": [
+    { "on": "06:00", "off": "06:02" },
+    { "on": "21:00", "off": "21:01" }
+  ],
+  "onetime_schedules": [
+    { "datetime": "2025-09-21T05:00", "action": "ON" },
+    { "datetime": "2025-09-21T05:01", "action": "OFF" }
+  ]
+}
