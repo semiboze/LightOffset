@@ -4,8 +4,7 @@
     { "on": "21:00", "off": "21:01" }
   ],
   "onetime_schedules": [
-    { "datetime": "2025-09-20T22:19", "action": "OFF" },
-    { "datetime": "2025-09-21T05:00", "action": "ON" },
-    { "datetime": "2025-09-21T05:01", "action": "OFF" }
+    { "datetime": "2025-09-22T12:19", "action": "ON" },
+    { "datetime": "2025-09-22T12:20", "action": "OFF" }
   ]
 }
