@@ -1,0 +1,50 @@
+{
+  "devices": [
+    {
+      "_comment": "常夜灯: 日没30分前に点灯、日の出30分後に消灯",
+      "name": "常夜灯",
+      "pin": 15,
+      "switch_pin": 26,
+      "schedules": [
+        {
+          "action": "ON",
+          "trigger": "sunset",
+          "offset": -30
+        },
+        {
+          "action": "OFF",
+          "trigger": "sunrise",
+          "offset": 30
+        }
+      ]
+    },
+    {
+      "_comment": "かまち灯: 日没20分前に点灯、毎日23時に消灯",
+      "name": "かまち灯",
+      "pin": 4,
+      "switch_pin": 21,
+      "schedules": [
+        {
+          "action": "ON",
+          "trigger": "sunset",
+          "offset": -30
+        },
+        {
+          "action": "OFF",
+          "trigger": "time",
+          "time": "09:00"
+        },
+        {
+          "action": "OFF",
+          "trigger": "time",
+          "time": "00:01"
+        },
+        {
+          "action": "ON",
+          "trigger": "time",
+          "time": "04:00"
+        }
+      ]
+    }
+  ]
+}
